@@ -1,0 +1,8 @@
+{
+  "name": "namgunggeon.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/namgunggeon/namgunggeon.github.io",
+  "author": "namgung-geon <rndrjs123@naver.com>",
+  "license": "MIT"
+}
