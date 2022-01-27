@@ -1,0 +1,50 @@
+@media screen and (max-width: 980px) {
+  .chips {
+    justify-content: center !important;
+  }
+}
+.button.closed {
+  background: rgb(121, 0, 0) !important;
+}
+.spotlight.alt .chips {
+  justify-content: flex-end;
+}
+.spotlight.alt .chips > .chip {
+  margin: 4px 0 4px 4px;
+}
+.chips {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.chips > .chip {
+  transition: 0.3s all;
+  background-color: #dfdfdf;
+  color: #333333;
+  border-radius: 16px;
+  padding: 4px 16px;
+  margin: 4px 4px 4px 0;
+  cursor: pointer;
+}
+.chips > .chip:hover {
+  background-color: #c7c7c7;
+}
+
+.carousel {
+  background: #eee;
+  width: 100%;
+}
+
+.carousel .gallery-cell {
+  width: 66%;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+  text-align: center;
+}
+.carousel img {
+  width: auto;
+  height: 500px;
+}
