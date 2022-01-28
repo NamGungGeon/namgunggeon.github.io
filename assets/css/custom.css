@@ -12,6 +12,20 @@
 .spotlight.alt .chips > .chip {
   margin: 4px 0 4px 4px;
 }
+
+.profile.wrapper {
+  text-align: center;
+  height: calc(256px - 32px);
+}
+.profile.wrapper img {
+  width: 256px;
+  height: 256px;
+
+  border-radius: 4px;
+
+  box-shadow: 0 4px 4px #333333;
+}
+
 .chips {
   display: flex;
   flex-direction: row;
@@ -22,15 +36,16 @@
 }
 .chips > .chip {
   transition: 0.3s all;
-  background-color: #dfdfdf;
-  color: #333333;
   border-radius: 16px;
+  border: 1px solid #54a354;
+  color: #54a354;
   padding: 4px 16px;
   margin: 4px 4px 4px 0;
   cursor: pointer;
 }
 .chips > .chip:hover {
-  background-color: #c7c7c7;
+  background-color: #54a354;
+  color: white;
 }
 
 .carousel {
